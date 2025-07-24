@@ -1,0 +1,35 @@
+{
+  "name": "teacat-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bin/teacat.js",
+  "bin": {
+    "teacat": "dist/bin/teacat.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merkie/teacat-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merkie/teacat-cli/issues"
+  },
+  "homepage": "https://github.com/Merkie/teacat-cli#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  }
+}
