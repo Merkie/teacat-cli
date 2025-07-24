@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
-import * as chalk from "chalk";
+const chalk = require("chalk");
 import { loadRC } from "../lib/rc";
 
 const program = new Command();
